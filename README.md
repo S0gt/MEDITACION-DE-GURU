@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true">
-    <img src="logo.png" alt="Logo" width="800" height="300">
+    <img src="logo.png" alt="Logo" width="500" height="300">
   </a>
 
   <h3 align="center">README MEDITACION GURU</h3>
