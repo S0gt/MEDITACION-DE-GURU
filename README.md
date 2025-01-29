@@ -40,5 +40,5 @@
 ## SOBRE NUESTRO PROJECTO
 
 
-En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion
+En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion multijugador online
 
