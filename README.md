@@ -26,8 +26,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/guanajo.jpg?raw=true">
-    <img src="guanajo.jpg" alt="Logo" width="1000" height="300">
+  <a href="https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true">
+    <img src="logo.jpg" alt="Logo" width="1000" height="300">
   </a>
 
   <h3 align="center">README MEDITACION GURU</h3>
