@@ -39,8 +39,6 @@
 <!-- SOBRE NUESTRO PROJECTO -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
