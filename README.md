@@ -44,4 +44,52 @@ En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion
 
 <div align="left">
 
-## Holaaaa
+# Idea seleccionada (título del proyecto) 
+
+-Página web con un sistema de emulación multijugador para juegos de WII 
+
+ 
+
+# Justificar la elección de esa idea 
+
+Hemos elegido esta idea porque nos interesa el sector de videojuegos y tener nuestro propio servidor para poder jugar online a juegos que normalmente no se podría nos parece algo bastante interesante 
+
+ 
+
+# Hasta donde quiero llegar con el proyecto (objetivos) 
+
+Queremos desarrollar la web con el emulador para que 2 PC cliente se conecten al servidor para poder jugar los 2 juntos online 
+
+ 
+
+# A quien va dirigido nuestro proyecto (público objetivo) 
+
+Nuestro público es desde adolescentes hasta gente más adulta ya que creemos que hay bastante gente a la que puede atraer nuesta idea 
+
+ 
+
+# Módulos del ciclo que tengan que ver con el proyecto (2 o más) 
+
+- Seguridad  
+
+- Aplicaciones Web 
+
+- Servicios 
+
+- Sistemas 
+
+ 
+
+ 
+
+# Materiales necesarios (físicos y lógicos) 
+
+ Físicos: Varios ordenadores 
+
+ Lógicos: Máquinas virtuales, ISO  
+
+ 
+
+ 
+
+# Recursos (bibliografia, web grafia, vídeos, cursos o de mas multimédia) 
