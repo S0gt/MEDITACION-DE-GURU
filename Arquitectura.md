@@ -1,12 +1,13 @@
- 
+# ARQUITECTURA
 
-Especificar objetivos y las funcionalidades. 
+
+# Especificar objetivos y las funcionalidades. 
 
 Nuestra meta es la creación de una página web que implemente un emulador de WII (Dolphin), nuestro objetivo principal es hacer que el emulador pueda tener modo online 
 
  
 
-Especificar listado de tareas. 
+# Especificar listado de tareas. 
 
 - Crear web 
 
@@ -20,7 +21,7 @@ Especificar listado de tareas.
 
  
 
-Asignar roles y responsabilidades del equipo. 
+# Asignar roles y responsabilidades del equipo. 
 
 - Iván Martín: Sistemas 
 
@@ -42,7 +43,11 @@ Asignar roles y responsabilidades del equipo.
 
 El diagrama de la red. 
 
- 
+ <br />
+<div align="center">
+  <a href="[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)">
+    <img src="Dibujo.png" alt="Logo" width="500" height="300">
+  </a>
 
  
 
