@@ -70,9 +70,13 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 -2 Ordenadores con Ubuntu desktop 
 
   ·4048MB de memoria RAM
+  
   ·4 CPU
+  
   ·150GB de almacenamiento
+  
   ·ISO Ubuntu 22.04.2
+  
   ·32MB de vídeo
 
 
