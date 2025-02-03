@@ -43,7 +43,7 @@
 En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion multijugador online
 
 <div align="left">
-
+<div align="left">
 # Idea seleccionada 💡💡
 
 -Página web con un sistema de emulación multijugador para juegos de WII 
