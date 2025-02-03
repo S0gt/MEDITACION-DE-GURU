@@ -31,15 +31,6 @@ Nuestra meta es la creación de una página web que implemente un emulador de WI
 
  
 
- 
-
- 
-
- 
-
- 
-
- 
 
 El diagrama de la red. 
 
@@ -65,9 +56,9 @@ POSTGRESQL (Bases de datos)
 
 # El hardware que se va a utilizar. 
 
-Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que sera 
+Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que será 
 
--2 Ordenadores con Ubuntu desktop 
+## 2 Ordenadores con Ubuntu desktop 
 
   ·4048MB de memoria RAM
   
