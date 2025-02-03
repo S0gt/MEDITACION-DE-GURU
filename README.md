@@ -39,7 +39,7 @@
 <!-- SOBRE NUESTRO PROJECTO -->
 ## SOBRE NUESTRO PROJECTO
 
-En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion multijugador online
+En nuestro proyecto realizamos una página web con su propio sistema de emulación multijugador online
 
 <div align="left">
 
@@ -51,13 +51,13 @@ En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion
 
 # Justificar la elección de esa idea 👍👍
 
-Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videojuegos, y una parte importante de ellos son los videojuegos antiguos que no pudimos llegar a disfrutar, coneste projecto lo que queremos hacer es revivir esos juegos y poderlos jugar con un multijugador para poder disfrutar de ka experiencia original
+Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videojuegos, y una parte importante de ellos son los videojuegos antiguos que no pudimos llegar a disfrutar, coneste proyecto lo que queremos hacer es revivir esos juegos y poderlos jugar con un multijugador para poder disfrutar de la experiencia original
 
  
 
-# Hasta donde quiero llegar con el proyecto 🏁🏁
+# Hasta donde queremos llegar con el proyecto 🏁🏁
 
-Nuestra intención es desarrollar una plataforma web sofisticada que incorpore un emulador funcional, diseñado específicamente para permitir que dos equipos clientes se conecten de manera fluida y estable a un servidor central. De esta forma, los usuarios podrán interactuar entre sí, disfrutando de una experiencia de juego compartida en línea, en tiempo real. Esta solución no solo fomentará la conectividad entre los jugadores, sino que también garantizará un entorno de juego sincronizado y sin interrupciones, brindando una experiencia de alta calidad para ambos participantes.
+Nuestra intención es desarrollar una plataforma web sofisticada que incorpore un emulador funcional, diseñado específicamente para permitir que dos equipos clientes se conecten de manera fluida y estable a un servidor central. De esta forma, los usuarios podrán interactuar entre si, disfrutando de una experiencia de juego compartida en línea, en tiempo real. Esta solución no solo fomentará la conectividad entre los jugadores, sinó que también garantizará un entorno de juego sincronizado y sin interrupciones, brindando una experiencia de alta calidad para ambos participantes.
 
  
 
