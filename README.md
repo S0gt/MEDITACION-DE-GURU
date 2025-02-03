@@ -39,11 +39,10 @@
 <!-- SOBRE NUESTRO PROJECTO -->
 ## SOBRE NUESTRO PROJECTO
 
-
 En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion multijugador online
 
 <div align="left">
-<div align="left">
+
 # Idea seleccionada 💡💡
 
 -Página web con un sistema de emulación multijugador para juegos de WII 
@@ -58,13 +57,14 @@ Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videoju
 
 # Hasta donde quiero llegar con el proyecto 🏁🏁
 
-Queremos desarrollar la web con el emulador para que 2 PC cliente se conecten al servidor para poder jugar los 2 juntos online 
+Nuestra intención es desarrollar una plataforma web sofisticada que incorpore un emulador funcional, diseñado específicamente para permitir que dos equipos clientes se conecten de manera fluida y estable a un servidor central. De esta forma, los usuarios podrán interactuar entre sí, disfrutando de una experiencia de juego compartida en línea, en tiempo real. Esta solución no solo fomentará la conectividad entre los jugadores, sino que también garantizará un entorno de juego sincronizado y sin interrupciones, brindando una experiencia de alta calidad para ambos participantes.
 
  
 
 # A quien va dirigido nuestro proyecto 📫📫
 
-Nuestro público es desde adolescentes hasta gente más adulta ya que creemos que hay bastante gente a la que puede atraer nuesta idea 
+
+Nuestro público objetivo abarca desde adolescentes hasta adultos de diversas edades, ya que estamos convencidos de que nuestra propuesta tiene un atractivo universal que puede captar el interés de una amplia gama de personas. Creemos firmemente que nuestra idea tiene el potencial de resonar tanto en los jóvenes, quienes buscan nuevas experiencias de entretenimiento, como en los adultos que valoran la nostalgia, la interacción social y la calidad en las opciones de ocio. Este enfoque inclusivo nos permite dirigirnos a un espectro diverso de usuarios, maximizando el impacto de nuestra propuesta. 
 
  
 
@@ -88,7 +88,6 @@ Nuestro público es desde adolescentes hasta gente más adulta ya que creemos qu
 
  Lógicos: Máquinas virtuales, ISO  
 
- 
 
  
 
