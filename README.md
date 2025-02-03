@@ -52,7 +52,7 @@ En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion
 
 # Justificar la elección de esa idea 👍👍
 
-Hemos elegido esta idea porque nos interesa el sector de videojuegos y tener nuestro propio servidor para poder jugar online a juegos que normalmente no se podría nos parece algo bastante interesante 
+Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videojuegos, y una parte importante de ellos son los videojuegos antiguos que no pudimos llegar a disfrutar, coneste projecto lo que queremos hacer es revivir esos juegos y poderlos jugar con un multijugador para poder disfrutar de ka experiencia original
 
  
 
