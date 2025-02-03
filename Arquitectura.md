@@ -48,12 +48,12 @@ El diagrama de la red.
   <a href="[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)">
     <img src="Dibujo.png" alt="Logo" width="500" height="300">
   </a>
-
+<div align="left">
  
 
  
 
-Las tecnologías a implementar. 
+# Las tecnologías a implementar. 
 
 Apache (Para web) 
 
@@ -63,7 +63,7 @@ POSTGRESQL (Bases de datos)
 
  
 
-El hardware que se va a utilizar. 
+# El hardware que se va a utilizar. 
 
 Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que sera 
 
@@ -75,7 +75,7 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 
  
 
-Los servicios a implementar. 
+# Los servicios a implementar. 
 
 - DNS  
 
@@ -85,7 +85,7 @@ Los servicios a implementar.
 
  
 
-Los sistemas operativos a utilizar. 
+# Los sistemas operativos a utilizar. 
 
 - Ubuntu Desktop 
 
@@ -95,4 +95,10 @@ Los sistemas operativos a utilizar.
 
  
 
-Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar. 
+# Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar. 
+ <br />
+<div align="center">
+  <a href="[[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Diagrama.png?raw=true)">
+    <img src="Diagrama.png" alt="Logo" width="500" height="300">
+  </a>
+<div align="left"
