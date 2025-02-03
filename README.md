@@ -44,7 +44,7 @@ En nuestro proyecto realizamos una pagina web con su propio sistema de emulacion
 
 <div align="left">
 
-# Idea seleccionada (título del proyecto) 💡💡
+# Idea seleccionada 💡💡
 
 -Página web con un sistema de emulación multijugador para juegos de WII 
 
@@ -56,19 +56,19 @@ Hemos elegido esta idea porque nos interesa el sector de videojuegos y tener nue
 
  
 
-# Hasta donde quiero llegar con el proyecto (objetivos) 🏁🏁
+# Hasta donde quiero llegar con el proyecto 🏁🏁
 
 Queremos desarrollar la web con el emulador para que 2 PC cliente se conecten al servidor para poder jugar los 2 juntos online 
 
  
 
-# A quien va dirigido nuestro proyecto (público objetivo) 📫📫
+# A quien va dirigido nuestro proyecto 📫📫
 
 Nuestro público es desde adolescentes hasta gente más adulta ya que creemos que hay bastante gente a la que puede atraer nuesta idea 
 
  
 
-# Módulos del ciclo que tengan que ver con el proyecto (2 o más) 📜📜
+# Módulos del ciclo que tengan que ver con el proyecto 📜📜
 
 - Seguridad  
 
@@ -82,7 +82,7 @@ Nuestro público es desde adolescentes hasta gente más adulta ya que creemos qu
 
  
 
-# Materiales necesarios (físicos y lógicos) ⛏️⛏️
+# Materiales necesarios ⛏️⛏️
 
  Físicos: Varios ordenadores 
 
@@ -92,4 +92,4 @@ Nuestro público es desde adolescentes hasta gente más adulta ya que creemos qu
 
  
 
-# Recursos (bibliografia, web grafia, vídeos, cursos o de mas multimédia) 
+# Recursos 
