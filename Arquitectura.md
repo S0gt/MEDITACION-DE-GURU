@@ -58,18 +58,11 @@ POSTGRESQL (Bases de datos)
 
 Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que será 
 
-## 2 Ordenadores con Ubuntu desktop 
-
-  ·4048MB de memoria RAM
-  
-  ·4 CPU
-  
-  ·150GB de almacenamiento
-  
-  ·ISO Ubuntu 22.04.2
-  
-  ·32MB de vídeo
-
+| COMPONENTE    | SO                  | ALMACENAMIENTO | CPU          | RAM  | IP                | GATEWAY      |
+|---------------|---------------------|----------------|--------------|------|-------------------|--------------|
+| 🖥️ MAQUINA HOST  | Proxmox             | 465 GB         | 4            | 8 GB | 000.00.00.000     | 000.00.00.0  |
+| 💻 CLIENTE       | Ubuntu 22.04.02     | 150 GB         | 4            | 4 GB | 000.000.0.00/00   | 000.000.0.0  |
+| 🌐 DNS / DHCP    | Ubuntu 22.04.02     | 14 GB          | 1            | 2 GB | 000.000.0.0/00    | 000.000.0.0  |
 
 # Los servicios a implementar. 
 
