@@ -83,11 +83,11 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 
 # Los sistemas operativos a utilizar. 
 
-- Ubuntu Desktop 
+- Ubuntu Desktop 22.04.2
 
-- Ubuntu Server 
+- Ubuntu Server 22.04.2
 
-- Windows 10  
+- Windows 10  22H2_Spanish
 
  
 
