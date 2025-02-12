@@ -34,6 +34,8 @@ Nuestra meta es la creación de una página web que implemente un emulador de WI
 
 Este es el diagrama de la red, donde podemos apreciar el esquema de como irá estructurada nuestra red y las direcciones IP que utilizaremos para esta. 
 
+En el diagrama de la red podemos ver como se estructura nuestra red, también apreciamos las direcciones IP que usaremos.
+
  <br />
 <div align="center">
   <a href="[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)">
@@ -48,7 +50,7 @@ Este es el diagrama de la red, donde podemos apreciar el esquema de como irá es
 
 Apache (Para web) 
 
-TRUENAS (Back ups) 
+TRUENAS (Backups) 
 
 POSTGRESQL (Bases de datos) 
 
@@ -58,19 +60,19 @@ POSTGRESQL (Bases de datos)
 
 Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que será 
 
-| COMPONENTE    | SO                  | ALMACENAMIENTO | CPU          | RAM  | IP                | GATEWAY      |
-|---------------|---------------------|----------------|--------------|------|-------------------|--------------|
+| COMPONENTE        | SO                  | ALMACENAMIENTO | CPU          | RAM  | IP                | GATEWAY      |
+|------------------|---------------------|----------------|--------------|------|-------------------|--------------|
 | 🖥️ MAQUINA HOST  | Proxmox             | 465 GB         | 4            | 8 GB | 000.00.00.000     | 000.00.00.0  |
 | 💻 CLIENTE       | Ubuntu 22.04.02     | 150 GB         | 4            | 4 GB | 000.000.0.00/00   | 000.000.0.0  |
 | 🌐 DNS / DHCP    | Ubuntu 22.04.02     | 14 GB          | 1            | 2 GB | 000.000.0.0/00    | 000.000.0.0  |
 
 # Los servicios a implementar. 
 
-- DNS  
+- DNS: Necesario para montar el servidor.
 
-- FIREWALL: (Para brindar seguridad a la red)
 
-- DHCP 
+
+- DHCP:  
 
  
 
