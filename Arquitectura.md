@@ -29,10 +29,10 @@ Nuestra meta es la creación de una página web que implemente un emulador de WI
 
  
 
- 
+ # Diagrama de la red.
 
 
-El diagrama de la red. 
+Este es el diagrama de la red, donde podemos apreciar el esquema de como irá estructurada nuestra red y las direcciones IP que utilizaremos para esta. 
 
 En el diagrama de la red podemos ver como se estructura nuestra red, también apreciamos las direcciones IP que usaremos.
 
@@ -70,7 +70,7 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 
 - DNS: Necesario para montar el servidor.
 
-- FIREWALL: Implementarlo para que este nos brinde seguridad a la web.
+
 
 - DHCP:  
 
@@ -87,6 +87,8 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
  
 
 # Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar. 
+
+En el diagrama de Gantt podemos ver como nos vamos a organizar las tareas y el tiempo que vamos a invertir en cada una de estas
  <br />
 <div align="center">
   <a href="[[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Diagrama.png?raw=true)">

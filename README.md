@@ -1,4 +1,4 @@
-# MEDITACION-DE-GURU
+# MEDITACION GURÚ 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
@@ -41,7 +41,7 @@ En nuestro proyecto realizamos una página web con su propio sistema de emulaci�
 
 # Idea seleccionada 💡💡
 
--Página web con un sistema de emulación multijugador para juegos de WII. 
+-Página web con un sistema de emulación multijugador para juegos de GameCube y Wii. 
 
 -Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videojuegos, y una parte importante de ellos son los videojuegos antiguos que no pudimos llegar a disfrutar, coneste proyecto lo que queremos hacer es revivir esos juegos y poderlos jugar con un multijugador para poder disfrutar de la experiencia original.
 
@@ -77,11 +77,19 @@ Nuestro público objetivo abarca desde adolescentes hasta adultos de diversas ed
 
 # Materiales necesarios ⛏️⛏️
 
+
  Físicos: Varios ordenadores 
 
  Lógicos: Máquinas virtuales, ISO  
 
 
+ # Incidencias 🚧🚧
  
+A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos estos a lo largo del proyecto:
+
+- Configurando el DNS y el DHCP cometimos varios errores a la hora de la escritura de códigos y de comandos.
+- Al final hemos cambiado la manera de hacerlo, usando el pi-hole con una interfaz gráfica en nuestro servidor.
+- Hemos descargado el navegador y tenemos que descargar un navedador en el servidor.
+-
 
 # Recursos 
