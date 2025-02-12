@@ -33,7 +33,7 @@
 
 
 <!-- SOBRE NUESTRO PROJECTO -->
-## SOBRE NUESTRO PROYECTO
+## SOBRE NUESTRO PROYECTO 🧐🧐
 
 En nuestro proyecto realizamos una página web con su propio sistema de emulación multijugador online
 
@@ -45,10 +45,10 @@ En nuestro proyecto realizamos una página web con su propio sistema de emulaci�
 
 -Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videojuegos, y una parte importante de ellos son los videojuegos antiguos que no pudimos llegar a disfrutar, coneste proyecto lo que queremos hacer es revivir esos juegos y poderlos jugar con un multijugador para poder disfrutar de la experiencia original.
 
--Los juegos seleccionados para la página son nuestros juegos favoritos de la plataforma como; Super Smash Bros. Melee, Mario Kart Double Dash!!, New Super Mario Bros. Wii, Donkey Kong Coutry Returns, entere otros.
+-Los juegos seleccionados para la página son nuestros juegos favoritos de la plataforma como; Super Smash Bros. Melee, Mario Kart: Double Dash!!, New Super Mario Bros. Wii, Donkey Kong Coutry Returns, entere otros.
  
 
-# Hasta donde queremos llegar con el proyecto 🏁🏁
+# ¿Hasta donde queremos llegar con el proyecto? 🏁🏁
 
 Nuestra intención es desarrollar una plataforma web dedicada que incorpore un emulador funcional, diseñado específicamente para permitir que dos equipos clientes se conecten de manera fluida y estable a un servidor central. De esta forma, los usuarios podrán interactuar entre si, disfrutando de una experiencia de juego compartida en línea, en tiempo real. Esta solución no solo fomentará la conectividad entre los jugadores, sinó que también garantizará un entorno de juego sincronizado y sin interrupciones, brindando una experiencia de alta calidad para ambos participantes.
 
@@ -63,17 +63,17 @@ Nuestro público objetivo abarca desde adolescentes hasta adultos de diversas ed
 
 # Módulos del ciclo que tengan que ver con el proyecto 📜📜
 
-- Seguridad  
+- Seguridad informática.
 
-- Aplicaciones Web 
+- Aplicaciones Web.
 
-- Servicios 
+- Servicios de red.
 
-- Sistemas 
+- Sistemas operativos en red.
 
- 
 
- 
+
+
 
 # Materiales necesarios ⛏️⛏️
 
@@ -90,6 +90,24 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
 - Configurando el DNS y el DHCP cometimos varios errores a la hora de la escritura de códigos y de comandos.
 - Al final hemos cambiado la manera de hacerlo, usando el pi-hole con una interfaz gráfica en nuestro servidor.
 - Hemos descargado el navegador y tenemos que descargar un navedador en el servidor.
--
 
-# Recursos 
+
+# DNS/DHCP 🐈🐈
+
+Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
+
+![image](https://github.com/user-attachments/assets/5042db07-4b3f-4987-8f96-f4daa7d055d0)
+
+
+
+
+# Recursos 🔎🔎
+
+Los recursos a los que hemos recurrido en la creación del proyecto son:
+
+- DNS: Consultar a los profes fallos ocurridos, y que nos aconsejaran que seria lo mejor, y utilizar el ChatGPT para no cometer errores a la hora de ls escritura de los comandos.
+- Servidor:
+- Clientes:
+- Creación de la web:
+- Implemetar emulador Dolphin en la web:
+
