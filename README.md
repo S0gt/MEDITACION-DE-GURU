@@ -92,12 +92,13 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
 - Hemos descargado el navegador y tenemos que descargar un navedador en el servidor.
 
 
-# DNS/DHCP 🐈🐈
+# FIREWALL 🐈🐈
 
 Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
 
 ![image](https://github.com/user-attachments/assets/5042db07-4b3f-4987-8f96-f4daa7d055d0)
 
+# DNS/DHCP 😶‍🌫️😶‍🌫️
 
 
 
@@ -106,7 +107,7 @@ Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y 
 Los recursos a los que hemos recurrido en la creación del proyecto son:
 
 - DNS: Consultar a los profes fallos ocurridos, y que nos aconsejaran que seria lo mejor, y utilizar el ChatGPT para no cometer errores a la hora de ls escritura de los comandos.
-- Servidor:
+- Servidor: Una parte del firewall ya la tenemos creada gracias al pfsense 
 - Clientes:
 - Creación de la web:
 - Implemetar emulador Dolphin en la web:
