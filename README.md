@@ -100,7 +100,65 @@ Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y 
 
 # DNS/DHCP 😶‍🌫️😶‍🌫️
 
+# Introducción a Apache 🤡🤡
 
+¿Qué es?
+
+Apache es un servidor web de código abierto ampliamente utilizado para alojar sitios web y aplicaciones.
+
+¿Por qué usarlo?
+
+Fiabilidad y seguridad
+
+Modularidad y compatibilidad con distintos lenguajes
+
+Uso en entornos locales e internet
+
+Documentación oficial
+
+https://httpd.apache.org/docs/
+
+Instalación en Ubuntu Server
+
+Configuración de la MV
+
+SO: Ubuntu Server 20.04
+
+RAM: 2GB
+
+Disco: 20GB
+
+Red: NAT "NatNetworkSMX2"
+
+Pasos
+
+Actualizar paquetes:
+
+sudo apt update && sudo apt upgrade -y
+
+Instalar Apache:
+
+sudo apt install apache2 -y
+
+Habilitar y verificar el servicio:
+
+sudo systemctl enable --now apache2
+sudo systemctl status apache2
+
+Configurar firewall (si aplica):
+
+sudo ufw allow 'Apache'
+sudo ufw enable
+
+Probar en el navegador con la IP de la MV.
+
+Problemas comunes
+
+Revisar logs con journalctl -u apache2
+
+Verificar puerto con netstat -tulnp | grep :80
+
+Comprobar configuraciones de red y firewall.
 
 # Recursos 🔎🔎
 
