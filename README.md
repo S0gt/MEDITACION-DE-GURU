@@ -168,7 +168,7 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
  
 
 # Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar. 
-<img src="GANT.jpg" />
+<img src="GANT.png" />
 
 
  # Incidencias 🚧🚧
