@@ -186,6 +186,89 @@ Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y 
 
 ![image](https://github.com/user-attachments/assets/5042db07-4b3f-4987-8f96-f4daa7d055d0)
 
+Configurar un firewall pfSense o Sophos según consideres: 
+
+ 
+
+En la memoria tienes que escribir un resumen a partir de las preguntas teóricas de las actividades de M06 de pfSense. Esto es: 
+
+ 
+
+## ¿Qué es pfSense y para qué se utiliza? 
+
+ 
+
+-pfSense es usado como firewall y es de código abierto. Es utilizado principalmente para proteger nuestras redes de cualquier posible amenaza. 
+
+ 
+
+## ¿En qué sistema se basa? 
+
+ 
+
+-pfSense toma como base a FreeBSD, que es un sistema derivado de UNIX, el cual es muy estable y seguro 
+
+ 
+
+## ¿Cuáles son las principales características de pfSense? 
+
+ 
+
+Las características principales del pfSense son: 
+
+Firewall con filtrado de paquetes 
+
+VPN (OpenVPN e IPsec) 
+
+Balanceo de carga y alta disponibilidad 
+
+Servidor DHCP y DNS 
+
+Captive Portal para control de acceso a redes 
+
+IDS/IPS (detección y prevención de intrusos) 
+
+Administración vía interfaz web 
+
+ 
+
+ 
+
+## ¿Cómo se instala y configura pfSense? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual? 
+
+ 
+
+Lo primero que debemos hacer es instalar la ISO de la página principal de pfSense 
+
+Requisitos mínimos de la máquina virtual para pfSense: 
+
+· 1 CPU 
+
+· 1 GB de memoria RAM 
+
+· 10 GB de disco duro 
+
+· 2 interfaces de red (ad.pnte y red interna) 
+
+Después deberemos seguir toda la instalación del pfSense. 
+
+Tendremos que configurar la red LAN para poder ver nuestra web, en nuestro caso la LAN es la 10.28.38.1 /24 y la WAN es la 100.77.20.56 /24 
+
+Una vez establecida toda la configuración deberemos abrir nuestro PC cliente para podernos conectar, para ello, abriremos el navegador e introduciremos la dirección que nosotros hayamos establecido en la LAN 
+
+ 
+
+## ¿Consideras pfSense una opción viable para empresas y redes domésticas? 
+
+Nosotros consideramos que pfSense es una opción bastante buena y nos brinda bastante seguridad y encima su software es gratuito, así que cualquiera lo puede usar. Para empresas ofrece seguridad avanzada y VPN, y para el hogar permite controlar el tráfico, establecer reglas de firewall y mejorar la seguridad de la red. 
+
+ 
+
+## ¿Qué es el port forward? Explica cómo lo has configurado. 
+
+Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a otra IP y nos ayuda a poder acceder a servidores internos desde el exterior, como si fuera un “puente”, a servidores como web o FTP. 
+
+ 
 # DNS/DHCP 😶‍🌫️😶‍🌫️
 
 
