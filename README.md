@@ -33,7 +33,13 @@
 
 
 <!-- SOBRE NUESTRO PROJECTO -->
-## SOBRE NUESTRO PROYECTO 🧐🧐
+
+
+<div align="left">
+
+  <details>
+    <summary><h2>SOBRE NUESTRO PROYECTO 🧐🧐</h2></summary>
+
 
 En nuestro proyecto realizamos una página web con su propio sistema de emulación multijugador online
 
@@ -119,8 +125,8 @@ En el diagrama de la red podemos ver como se estructura nuestra red, también ap
 
  <br />
 <div align="center">
-  <a href="[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)">
-    <img src="Dibujo.png" alt="Logo" width="500" height="300">
+  <a href="[[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Dibujo.png?raw=true)">
+    <img src="IMAGENES/Dibujo.png" alt="Dibujo" width="1200" height="500">
   </a>
 <div align="left">
  
@@ -168,7 +174,11 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
  
 
 # Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar. 
-<img src="GANT.png" />
+<div align="center">
+  <a href="[[[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Dibujo.png?raw=true)](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Diagrama.png?raw=true)">
+    <img src="IMAGENES/Diagrama.png" alt="Diagrama" width="1200" height="500">
+  </a>
+<div align="left">
 
 
  # Incidencias 🚧🚧
@@ -179,8 +189,14 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
 - Al final hemos cambiado la manera de hacerlo, usando el pi-hole con una interfaz gráfica en nuestro servidor.
 - Hemos descargado el navegador y tenemos que descargar un navedador en el servidor.
 
+</details>
 
-# FIREWALL 🐈🐈
+<div align="left">
+
+  <details>
+    <summary><h2>FIREWALL 🐈🐈</h2></summary>
+
+
 
 Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
 
@@ -268,12 +284,23 @@ Nosotros consideramos que pfSense es una opción bastante buena y nos brinda bas
 
 Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a otra IP y nos ayuda a poder acceder a servidores internos desde el exterior, como si fuera un “puente”, a servidores como web o FTP. 
 
- 
-# DNS/DHCP 😶‍🌫️😶‍🌫️
+</details>
+
+ <div align="left">
+
+  <details>
+    <summary><h2>DNS/DHCP 😶‍🌫️😶‍🌫️</h2></summary>
+    
+
+  </details>
+
+<div align="left">
+
+  <details>
+    <summary><h2>Introducción a Apache 🤡🤡</h2></summary>
 
 
 
-# Introducción a Apache 🤡🤡
 
 ## ¿Qué es?
 
@@ -323,12 +350,20 @@ sudo systemctl status apache2
 sudo ufw allow 'Apache'
 sudo ufw enable
 
+
+ 
 # INCIDENCIAS (APACHE)⚠️⚠️
 
 Durante la realizacion de el apartado de apache tubimos multiples problemas, todos devido a que nos quisimos adelantar y intentamos instalar PHP y MySQL antes de que lo explicaran en clase, esto nos hizo confundirnos a la hora de la instalacion y acabar complicandola demasiado hasta que salieron muchos errores con los archivos, lo que decidimos hacer al final es pasar todo de un debian a un ubuntu server, al hacer esto la instalacion fue mucho mas facil para nosotros y pudimos completarla sin mayor dificultad
 
+ </details>
 
-# Recursos 🔎🔎
+<div align="left">
+
+  <details>
+    <summary><h2>Recursos 🔎🔎</h2></summary>
+    
+
 
 Los recursos a los que hemos recurrido en la creación del proyecto son:
 
@@ -338,3 +373,4 @@ Los recursos a los que hemos recurrido en la creación del proyecto son:
 - Creación de la web:
 - Implemetar emulador Dolphin en la web:
 
+   </details>
