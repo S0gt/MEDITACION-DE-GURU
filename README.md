@@ -297,6 +297,8 @@ Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a o
   <details>
     <summary><h2>TRUENAS </h2></summary>
 
+  </details>
+
 <div align="left">
 
   <details>
