@@ -297,7 +297,7 @@ Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a o
 <div align="left">
 
   <details>
-    <summary><h2>Introducción a Apache 🤡🤡</h2></summary>
+    <summary><h2>Página Web 🤡🤡</h2></summary>
 
 
 
