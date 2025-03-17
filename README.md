@@ -294,6 +294,9 @@ Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a o
 
   </details>
 
+  <details>
+    <summary><h2>TRUENAS </h2></summary>
+
 <div align="left">
 
   <details>
