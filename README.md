@@ -291,6 +291,64 @@ Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a o
   <details>
     <summary><h2>DNS/DHCP 😶‍🌫️😶‍🌫️</h2></summary>
     
+# Introducción al servicio (DNS y al DHCP)
+
+## ¿Qué es?
+
+  DNS (Domain Name System): Es un servicio que traduce nombres de dominio en direcciones IP. Facilita la navegación en internet y la gestión de redes.
+
+  DHCP (Dynamic Host Configuration Protocol): Es un protocolo que asigna automáticamente direcciones IP y puertas de enlace y DNS a los dispositivos de una red.
+
+## ¿Por qué es necesario?
+
+DNS: Permite que los usuarios accedan a sitios web y recursos de red usando nombres en lugar de números difíciles de recordar.
+
+DHCP: Simplifica la administración de redes al asignar IPs automáticamente, evitando conflictos de direcciones y configuraciones manuales.
+
+## ¿Dónde hay información oficial?
+
+- Al usar Linux para clientes y server en todo el trabajo, Bind9 se podria adaptar perfectamente a nuestras necesidades
+
+  DNS: https://bind9.readthedocs.io/en/v9.20.7/ 
+
+  DHCP: https://documentation.ubuntu.com/server/how-to/networking/install-isc-dhcp-server/index.html
+
+## Extras
+
+  DNS:
+
+  DHCP:
+
+## Instalación (DNS y del DHCP)
+
+  DNS:
+
+  DHCP:
+
+## Detalles de la MV
+
+  Servidor: 
+  
+· 2 CPU 
+
+· 2 GB de memoria RAM 
+
+· 25 GB de disco duro 
+
+· 2 interfaces de red (ad.pnte y red interna) 
+
+
+## Pasos a seguir
+
+  DNS:
+
+  DHCP:
+
+## Incidencias
+
+  DNS:
+
+  DHCP:
 
   </details>
 
@@ -303,8 +361,6 @@ Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a o
 
   <details>
     <summary><h2>Página Web 🤡🤡</h2></summary>
-
-
 
 
 ## ¿Qué es?
@@ -333,7 +389,7 @@ RAM: 2GB
 
 Disco: 20GB
 
-Red: NAT "NatNetworkSMX2"
+Red: Red NAT "NatNetworkSMX2"
 
 # Pasos
 
