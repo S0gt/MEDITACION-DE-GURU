@@ -41,7 +41,7 @@
     <summary><h2>SOBRE NUESTRO PROYECTO 🧐🧐</h2></summary>
 
 
-En nuestro proyecto realizamos una página web con su propio sistema de emulación multijugador online
+En nuestro proyecto realizamos una página web en la cual nuestros clientes pueden publicar reseñas sobre películas, series y videojuegos. Para que así personas puedan echar un vistazo a las reseñas de la gente.
 
 <div align="left">
 
