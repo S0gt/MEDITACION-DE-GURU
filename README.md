@@ -375,34 +375,6 @@ Modularidad y compatibilidad con distintos lenguajes
 
 Uso en entornos locales e internet
 
-## Mapa de la web
-
-## Nuestro mapa de la web:
-
-  <a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Mapa%20de%20la%20web.jpg>
-  
-  <img src="IMAGENES/Mapa de la web.jpg" alt="Mapa de la web" width="1200" height="500">
-    
-  </a>
-
-## Preview del home de la web:
-
-  <a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Mapa%20de%20la%20web.jpg>
-  
-  <img src="IMAGENES/pagina home.png" alt="pagina home">
-
-## Preview del login de la página:
-
-<a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/login.png>
-
-<img src="IMAGENES/login.png" alt="login">
-
-## Preview de las reseñas de la web:
-
-<a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/login.png>
-
-<img src="IMAGENES/pAGINA RESEÑAS.png" alt="pAGINA RESEÑAS">
-
 ## Documentación oficial
 
 https://httpd.apache.org/docs/
@@ -444,6 +416,35 @@ sudo ufw enable
 # INCIDENCIAS (APACHE)⚠️⚠️
 
 Durante la realizacion de el apartado de apache tubimos multiples problemas, todos devido a que nos quisimos adelantar y intentamos instalar PHP y MySQL antes de que lo explicaran en clase, esto nos hizo confundirnos a la hora de la instalacion y acabar complicandola demasiado hasta que salieron muchos errores con los archivos, lo que decidimos hacer al final es pasar todo de un debian a un ubuntu server, al hacer esto la instalacion fue mucho mas facil para nosotros y pudimos completarla sin mayor dificultad
+
+## Mapa de la web
+
+## Nuestro mapa de la web:
+
+  <a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Mapa%20de%20la%20web.jpg>
+  
+  <img src="IMAGENES/Mapa de la web.jpg" alt="Mapa de la web" width="1200" height="500">
+    
+  </a>
+
+## Preview del home de la web:
+
+  <a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Mapa%20de%20la%20web.jpg>
+  
+  <img src="IMAGENES/pagina home.png" alt="pagina home">
+
+## Preview del login de la página:
+
+<a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/login.png>
+
+<img src="IMAGENES/login.png" alt="login">
+
+## Preview de las reseñas de la web:
+
+<a href=https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/login.png>
+
+<img src="IMAGENES/pAGINA RESEÑAS.png" alt="pAGINA RESEÑAS">
+
 
  </details>
 
