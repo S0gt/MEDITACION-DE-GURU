@@ -90,21 +90,14 @@ Nuestro público objetivo abarca desde adolescentes hasta adultos de diversas ed
 
  # Especificar objetivos y las funcionalidades. 
 
-Nuestra meta es la creación de una página web que implemente un emulador de WII (Dolphin), nuestro objetivo principal es hacer que el emulador pueda tener modo online 
-
+Nuestra meta es una web donde se puedan hacer reseñas de peliculas, series y videojuegos, tambien queremos que los usuarios puedan hacer listas de las peliculas, series y juegos para llear un orden o organizacion
  
 
-# Especificar listado de tareas. 
+# Especificar listado de tareas.
 
-- Crear web 
-
-- Configurar RetroArch 
-
-- Hacer arquitectura de la web: navegabilidad del sitio web, mockup 
-
-- Integrar RetroArch y Dolphin a la web 
-
-- Pruebas y correcciones del rendimiento 
+-Crear los servidores y configurarlos para que den los servicios que necesitamos
+-Crear paginas web con frontend y backend
+-Base de datos para que funcionen los registros
 
  
 
@@ -148,18 +141,16 @@ POSTGRESQL (Bases de datos)
 Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que será 
 
 | COMPONENTE        | SO                  | ALMACENAMIENTO | CPU          | RAM  | IP                | GATEWAY      |
-|------------------|---------------------|----------------|--------------|------|-------------------|--------------|
-| 🖥️ MAQUINA HOST  | Proxmox             | 465 GB         | 4            | 8 GB | 000.00.00.000     | 000.00.00.0  |
-| 💻 CLIENTE       | Ubuntu 22.04.02     | 150 GB         | 4            | 4 GB | 000.000.0.00/00   | 000.000.0.0  |
-| 🌐 DNS / DHCP    | Ubuntu 22.04.02     | 14 GB          | 1            | 2 GB | 000.000.0.0/00    | 000.000.0.0  |
+|------------------|---------------------|----------------|---------------|------|-------------------|--------------|
+| 🖥️ MAQUINA HOST  | Pfsense             | 50 GB          | 2             | 4 GB | 000.00.00.000     | 000.00.00.0  |
+| 💻 CLIENTE       | Ubuntu 22.04.02     | 50 GB          | 4             | 4 GB | 000.000.0.00/00   | 000.000.0.0  |
+| 🌐 DNS / DHCP    | Ubuntu 22.04.02     | 50 GB          | 2             | 4 GB | 000.000.0.0/00    | 000.000.0.0  |
 
 # Los servicios a implementar. 
 
-- DNS: Necesario para montar el servidor.
+- DNS: Para que nuestro servidor sea capaz de resolver direcciónes web 
 
-
-
-- DHCP:  
+- DHCP: Para asignar las ip automáticamente a el resto de las máquinas virtuales 
 
  
 
@@ -456,10 +447,10 @@ Durante la realizacion de el apartado de apache tubimos multiples problemas, tod
 
 Los recursos a los que hemos recurrido en la creación del proyecto son:
 
-- DNS: Consultar a los profes fallos ocurridos, y que nos aconsejaran que seria lo mejor, y utilizar el ChatGPT para no cometer errores a la hora de ls escritura de los comandos.
-- Servidor: Una parte del firewall ya la tenemos creada gracias al pfsense 
-- Clientes:
-- Creación de la web:
-- Implemetar emulador Dolphin en la web:
+- DNS Y DHCP de la guia de punkymo de Alina
+- Para Apache hemos usado la una guia de Digital Ocean sobre Apache, PHP y MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu
+- FIREWALL: Para firewall usamos pfsense y nos guiamos por la guia de punkymo
+- Copias de seguridad: Usamos True Nas y nos guiamos con la guia de punkymo nuevamente 
+
 
    </details>
