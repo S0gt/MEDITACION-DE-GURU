@@ -123,7 +123,7 @@ TRUENAS (Backups)
 
 PFsense (Firewall y DNS)
 
-DHCP (Dar IP)
+DHCP (backup)
 
 # El hardware que se va a utilizar. 
 
@@ -332,7 +332,11 @@ DHCP: Simplifica la administración de redes al asignar IPs automáticamente, ev
   </details>
 
   <details>
-    <summary><h2>TRUENAS </h2></summary>
+    <summary><h2>TRUENAS ⛈️⛈️</h2></summary>
+
+  ## ¿Qué es?
+
+  ## ¿Por qué usarlo?
 
   </details>
 
