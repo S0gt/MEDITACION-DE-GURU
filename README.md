@@ -123,7 +123,7 @@ TRUENAS (Backups)
 
 PFsense (Firewall y DNS)
 
-DHCP (backup)
+DHCP (Dar IP)
 
 # El hardware que se va a utilizar. 
 
