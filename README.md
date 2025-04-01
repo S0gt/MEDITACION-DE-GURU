@@ -47,24 +47,15 @@ En nuestro proyecto realizamos una página web en la cual nuestros clientes pued
 
 # Idea seleccionada 💡💡
 
--Página web con un sistema de emulación multijugador para juegos de GameCube y Wii. 
-
--Esta idea la hemos elegido porque a los dos nos apasiona el mundo de los videojuegos, y una parte importante de ellos son los videojuegos antiguos que no pudimos llegar a disfrutar, coneste proyecto lo que queremos hacer es revivir esos juegos y poderlos jugar con un multijugador para poder disfrutar de la experiencia original.
-
--Los juegos seleccionados para la página son nuestros juegos favoritos de la plataforma como; Super Smash Bros. Melee, Mario Kart: Double Dash!!, New Super Mario Bros. Wii, Donkey Kong Coutry Returns, entere otros.
- 
+Página web de reseña de películas, series y videojuegos, con la capacidad de crear listas personalizadas 
 
 # ¿Hasta donde queremos llegar con el proyecto? 🏁🏁
 
-Nuestra intención es desarrollar una plataforma web dedicada que incorpore un emulador funcional, diseñado específicamente para permitir que dos equipos clientes se conecten de manera fluida y estable a un servidor central. De esta forma, los usuarios podrán interactuar entre si, disfrutando de una experiencia de juego compartida en línea, en tiempo real. Esta solución no solo fomentará la conectividad entre los jugadores, sinó que también garantizará un entorno de juego sincronizado y sin interrupciones, brindando una experiencia de alta calidad para ambos participantes.
-
+Nuestra intención es tener una página en la que puedas hacer reseñas rápidas y sencillas, queremos que también puedas hacerte listas con tus contenidos favoritos que tienes pendientes por ver o jugar.
  
-
 # ¿A quién va dirigido nuestro proyecto? 📫📫
 
-
-Nuestro público objetivo abarca desde adolescentes hasta adultos de diversas edades, ya que estamos convencidos de que nuestra propuesta tiene un atractivo universal que puede captar el interés de una amplia gama de personas. Creemos firmemente que nuestra idea tiene el potencial de resonar tanto en los jóvenes, quienes buscan nuevas experiencias de entretenimiento, como en los adultos que valoran la nostalgia, la interacción social y la calidad en las opciones de ocio. Este enfoque inclusivo nos permite dirigirnos a un espectro diverso de usuarios, maximizando el impacto de nuestra propuesta. 
-
+Queremos centrarnos en un publico joven aunque no nos desagrada la idea de que sea para un publico general, nos queremos centrar en que sea agradable para que todos los publicos esten comodos al usar la pagina, queremos algo intuitivo y sencillo
  
 
 # Módulos del ciclo que tengan que ver con el proyecto 📜📜
@@ -82,7 +73,6 @@ Nuestro público objetivo abarca desde adolescentes hasta adultos de diversas ed
 
 
 # Materiales necesarios ⛏️⛏️
-
 
  Físicos: Varios ordenadores 
 
@@ -111,7 +101,6 @@ Nuestra meta es una web donde se puedan hacer reseñas de peliculas, series y vi
 
  # Diagrama de la red.
 
-
 Este es el diagrama de la red, donde podemos apreciar el esquema de como irá estructurada nuestra red y las direcciones IP que utilizaremos para esta. 
 
 En el diagrama de la red podemos ver como se estructura nuestra red, también apreciamos las direcciones IP que usaremos.
@@ -128,13 +117,13 @@ En el diagrama de la red podemos ver como se estructura nuestra red, también ap
 
 # Las tecnologías a implementar. 
 
-Apache (Para web) 
+Apache, PHP y MySql (Para web) 
 
 TRUENAS (Backups) 
 
-POSTGRESQL (Bases de datos) 
+PFsense (Firewall y DNS)
 
- 
+DHCP (backup)
 
 # El hardware que se va a utilizar. 
 
@@ -152,7 +141,6 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 
 - DHCP: Para asignar las ip automáticamente a el resto de las máquinas virtuales 
 
- 
 
 # Los sistemas operativos a utilizar. 
 
