@@ -178,75 +178,32 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
 # INTRODUCCION A FIREWALL
 ## ¿Qué es pfSense y para qué se utiliza? 
 
- 
-
--pfSense es usado como firewall y es de código abierto. Es utilizado principalmente para proteger nuestras redes de cualquier posible amenaza. 
-
- 
+-PfSense es un firewall de codigo abierto, se utiliza como firewall y enrutador, se usa por su interfaz sencilla y simple
 
 ## ¿En qué sistema se basa? 
 
- 
-
--pfSense toma como base a FreeBSD, que es un sistema derivado de UNIX, el cual es muy estable y seguro 
-
- 
+-PfSense se basa en el sistema FreeBSD, es un sistema operativo multiusuario capaz de tener multitarea
 
 ## ¿Cuáles son las principales características de pfSense? 
 
- 
-
-Las características principales del pfSense son: 
-
-Firewall con filtrado de paquetes 
-
-VPN (OpenVPN e IPsec) 
-
-Balanceo de carga y alta disponibilidad 
-
-Servidor DHCP y DNS 
-
-Captive Portal para control de acceso a redes 
-
-IDS/IPS (detección y prevención de intrusos) 
-
-Administración vía interfaz web 
-
- 
+Sus caracteristicas principales son su soporte para VPN, Balanceo de carga y su gestion de DNS y DHCP, tiene  muchas mas caracteristicas pero estas son las mas destacadas para nosotros 
 
 ## ¿Cómo se instala y configura pfSense? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual? 
 
- 
+Para instalarlo es tan facil como ir a su web https://www.pfsense.org/download/ y desde ahi descargamos con facilidad la ISO
 
-Lo primero que debemos hacer es instalar la ISO de la página principal de pfSense 
-
-Requisitos mínimos de la máquina virtual para pfSense: 
-
-· 1 CPU 
-
-· 1 GB de memoria RAM 
-
-· 10 GB de disco duro 
-
-· 2 interfaces de red (ad.pnte y red interna) 
-
-Después deberemos seguir toda la instalación del pfSense. 
-
-Tendremos que configurar la red LAN para poder ver nuestra web, en nuestro caso la LAN es la 10.28.38.1 /24 y la WAN es la 100.77.20.56 /24 
-
-Una vez establecida toda la configuración deberemos abrir nuestro PC cliente para podernos conectar, para ello, abriremos el navegador e introduciremos la dirección que nosotros hayamos establecido en la LAN 
-
- 
-
+Luego en VirtualBox solo tenemos que crear una nueva maquina con recursos normales considerando que no tiene interfaz grafica 
+seleccionamos FreeBSD como sistema y seguimos la instalacion que es bastante facil y intuitiva.
+![image](IMAGENES/descarga.png)
 ## ¿Consideras pfSense una opción viable para empresas y redes domésticas? 
 
-Nosotros consideramos que pfSense es una opción bastante buena y nos brinda bastante seguridad y encima su software es gratuito, así que cualquiera lo puede usar. Para empresas ofrece seguridad avanzada y VPN, y para el hogar permite controlar el tráfico, establecer reglas de firewall y mejorar la seguridad de la red. 
-
+Pese a que PfSense es muy util en nuestro caso a la hora de empresas hay opciones mas profesionales como podria ser Sophos, que es mas pesada pero tambien tiene muchas mas funciones, en el caso de redes domesticas consideramos que se podria usar PfSense sin ningun problema
  
-
 ## ¿Qué es el port forward? Explica cómo lo has configurado. 
 
-Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a otra IP y nos ayuda a poder acceder a servidores internos desde el exterior, como si fuera un “puente”, a servidores como web o FTP. 
+Es un metodo de redireccion de puertos, se usa para que varios dispositivos se puedan interconectar, sobretodo se usa en cosas como camaras de seguridad o para poder conectarnos a servidores de juegos
+
+Lo configuramos creando una nueva regla en la seccion NAT, configuramos la interfaz en WAN par trafico externo, protocolos usamos TCP/UDP, ponemos puerto de HTTP a HTTP, redirigimops a la ip que usamos en nuestro caso 10.28.38.100 y ya estaria 
 
 # PRACTICA
 Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
