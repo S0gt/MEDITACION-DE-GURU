@@ -175,20 +175,7 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
   <details>
     <summary><h2>FIREWALL 🐈🐈</h2></summary>
 
-
-
-Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
-
-![image](https://github.com/user-attachments/assets/5042db07-4b3f-4987-8f96-f4daa7d055d0)
-
-Configurar un firewall pfSense o Sophos según consideres: 
-
- 
-
-En la memoria tienes que escribir un resumen a partir de las preguntas teóricas de las actividades de M06 de pfSense. Esto es: 
-
- 
-
+# INTRODUCCION A FIREWALL
 ## ¿Qué es pfSense y para qué se utiliza? 
 
  
@@ -227,8 +214,6 @@ Administración vía interfaz web
 
  
 
- 
-
 ## ¿Cómo se instala y configura pfSense? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual? 
 
  
@@ -262,6 +247,11 @@ Nosotros consideramos que pfSense es una opción bastante buena y nos brinda bas
 ## ¿Qué es el port forward? Explica cómo lo has configurado. 
 
 Es el reenvío de puertos, nos permite poder redirigir el tráfico de una IP a otra IP y nos ayuda a poder acceder a servidores internos desde el exterior, como si fuera un “puente”, a servidores como web o FTP. 
+
+# PRACTICA
+Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
+
+![image](https://github.com/user-attachments/assets/5042db07-4b3f-4987-8f96-f4daa7d055d0)
 
 </details>
 
