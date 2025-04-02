@@ -107,8 +107,8 @@ En el diagrama de la red podemos ver como se estructura nuestra red, también ap
 
  <br />
 <div align="center">
-  <a href="[[https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/logo.png?raw=true](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/Dibujo.png?raw=true)](https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/Dibujo.png?raw=true)">
-    <img src="IMAGENES/Dibujo.png" alt="Dibujo" width="1200" height="500">
+  <a href="https://github.com/S0gt/MEDITACION-DE-GURU/blob/main/IMAGENES/diagrama%20red.png?raw=true">
+    <img src="IMAGENES/diagrama red.png" alt="diagrama red">
   </a>
 <div align="left">
  
