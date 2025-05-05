@@ -282,8 +282,21 @@ DHCP: Simplifica la administración de redes al asignar IPs automáticamente, ev
     <summary><h2>TRUENAS ⛈️⛈️</h2></summary>
 
   ## ¿Qué es?
+  
+  TrueNAS es un programa gratuito que puedes instalar en un ordenador para convertirlo en un servidor donde se guardan archivos. Es como tener un disco duro gigante al que se pueden conectar otros ordenadores de la misma red para guardar, copiar o ver archivos, sin necesidad de usar internet. Es parecido a tener tu propia nube personal, pero solo accesible dentro de tu casa, instituto o empresa.
+
 
   ## ¿Por qué usarlo?
+  
+- Es gratis y de código abierto.
+
+- Funciona en ordenadores normales.
+
+- Es muy estable y seguro.
+
+- Permite ahorrar dinero en lugar de comprar soluciones comerciales caras.
+
+- Se usa tanto en hogares como en empresas.
 
   </details>
 
@@ -381,7 +394,7 @@ Durante la realizacion de el apartado de apache tubimos multiples problemas, tod
 
   <details>
     <summary><h2>Recursos 🔎🔎</h2></summary>
-    
+  
 
 
 Los recursos a los que hemos recurrido en la creación del proyecto son:
