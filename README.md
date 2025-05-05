@@ -176,6 +176,7 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
     <summary><h2>FIREWALL 🐈🐈</h2></summary>
 
 # INTRODUCCION A FIREWALL
+
 ## ¿Qué es pfSense y para qué se utiliza? 
 
 -PfSense es un firewall de codigo abierto, se utiliza como firewall y enrutador, se usa por su interfaz sencilla y simple
@@ -197,7 +198,7 @@ seleccionamos FreeBSD como sistema y seguimos la instalacion que es bastante fac
 ![image](IMAGENES/descarga.png)
 ## ¿Consideras pfSense una opción viable para empresas y redes domésticas? 
 
-Pese a que PfSense es muy util en nuestro caso a la hora de empresas hay opciones mas profesionales como podria ser Sophos, que es mas pesada pero tambien tiene muchas mas funciones, en el caso de redes domesticas consideramos que se podria usar PfSense sin ningun problema
+Pese a que PfSense es muy útil en nuestro caso a la hora de empresas hay opciones mas profesionales como podria ser Sophos, que es mas pesada pero tambien tiene muchas mas funciones, en el caso de redes domesticas consideramos que se podria usar PfSense sin ningun problema
  
 ## ¿Qué es el port forward? Explica cómo lo has configurado. 
 
@@ -239,12 +240,6 @@ DHCP: Simplifica la administración de redes al asignar IPs automáticamente, ev
 
   DHCP: https://documentation.ubuntu.com/server/how-to/networking/install-isc-dhcp-server/index.html
 
-## Extras
-
-  DNS:
-
-  DHCP:
-
 ## Instalación (DNS y del DHCP)
 
   DNS:
@@ -263,18 +258,6 @@ DHCP: Simplifica la administración de redes al asignar IPs automáticamente, ev
 
 · 2 interfaces de red (ad.pnte y red interna) 
 
-
-## Pasos a seguir
-
-  DNS:
-
-  DHCP:
-
-## Incidencias
-
-  DNS:
-
-  DHCP:
 
   </details>
 
