@@ -121,9 +121,9 @@ Apache, PHP y MySql (Para web)
 
 TRUENAS (Backups) 
 
-PFsense (Firewall y DNS)
+PFsense (Firewall y DHCP)
 
-DHCP (backup)
+Bind9 (DNS)
 
 # El hardware que se va a utilizar. 
 
