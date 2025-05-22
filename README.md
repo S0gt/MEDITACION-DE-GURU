@@ -41,13 +41,13 @@
     <summary><h2>SOBRE NUESTRO PROYECTO 🧐🧐</h2></summary>
 
 
-En nuestro proyecto realizamos una página web en la cual nuestros clientes pueden publicar reseñas sobre películas, series y videojuegos. Para que así personas puedan echar un vistazo a las reseñas de la gente.
+En nuestro proyecto realizamos una página web en la cual nuestros clientes pueden publicar reseñas sobre películas. Para que así personas puedan echar un vistazo a las reseñas de la gente.
 
 <div align="left">
 
 # Idea seleccionada 💡💡
 
-Página web de reseña de películas, series y videojuegos, con la capacidad de crear listas personalizadas 
+Página web de reseña de películas, con la capacidad de crear listas personalizadas y que cada usuario pueda dar su opinion de las peliculas que pongamos.
 
 # ¿Hasta donde queremos llegar con el proyecto? 🏁🏁
 
@@ -60,16 +60,11 @@ Queremos centrarnos en un publico joven aunque no nos desagrada la idea de que s
 
 # Módulos del ciclo que tengan que ver con el proyecto 📜📜
 
-- Seguridad informática.
+- Seguridad informática. (Copias de seguridad)
 
-- Aplicaciones Web.
+- Aplicaciones Web. (Php y mysql)
 
-- Servicios de red.
-
-- Sistemas operativos en red.
-
-
-
+- Sistemas operativos en red y servicios en red. (máquinas virtuales del proyecto)
 
 
 # Materiales necesarios ⛏️⛏️
@@ -80,7 +75,7 @@ Queremos centrarnos en un publico joven aunque no nos desagrada la idea de que s
 
  # Especificar objetivos y las funcionalidades. 
 
-Nuestra meta es una web donde se puedan hacer reseñas de peliculas, series y videojuegos, tambien queremos que los usuarios puedan hacer listas de las peliculas, series y juegos para llear un orden o organizacion
+Nuestra meta es crear una web donde se puedan hacer reseñas de peliculas, también querémos que los usuarios puedan hacer listas de las películas, para llenar un orden u organización
  
 
 # Especificar listado de tareas.
@@ -93,9 +88,9 @@ Nuestra meta es una web donde se puedan hacer reseñas de peliculas, series y vi
 
 # Asignar roles y responsabilidades del equipo. 
 
-- Iván Martín: Sistemas 
+- Iván Martín: Web 
 
-- Víctor Polo: Web 
+- Víctor Polo: Sistemas 
 
  
 
@@ -130,7 +125,7 @@ Bind9 (DNS)
 Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que será 
 
 | COMPONENTE        | SO                  | ALMACENAMIENTO | CPU          | RAM  | IP                | GATEWAY      |
-|------------------|---------------------|----------------|---------------|------|-------------------|--------------|
+|-------------------|---------------------|----------------|---------------|------|-------------------|--------------|
 | 🖥️ MAQUINA HOST  | Pfsense             | 50 GB          | 2             | 4 GB | 000.00.00.000     | 000.00.00.0  |
 | 💻 CLIENTE       | Ubuntu 22.04.02     | 50 GB          | 4             | 4 GB | 000.000.0.00/00   | 000.000.0.0  |
 | 🌐 DNS / DHCP    | Ubuntu 22.04.02     | 50 GB          | 2             | 4 GB | 000.000.0.0/00    | 000.000.0.0  |
@@ -177,30 +172,27 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
 
 # INTRODUCCION A FIREWALL
 
-## ¿Qué es pfSense y para qué se utiliza? 
+## Concepto 
 
--PfSense es un firewall de codigo abierto, se utiliza como firewall y enrutador, se usa por su interfaz sencilla y simple
+-PfSense es un firewall de codigo abierto, se utiliza como firewall y enrutador, se usa por su interfaz sencilla y simple basado en FreeBSD, es un sistema operativo multiusuario capaz de tener multitarea
 
-## ¿En qué sistema se basa? 
+## Características
 
--PfSense se basa en el sistema FreeBSD, es un sistema operativo multiusuario capaz de tener multitarea
+Sus características principales son su soporte para VPN, Balanceo de carga y su gestion de DNS y DHCP, tiene  muchas mas caracteristicas pero estas son las mas destacadas para nosotros 
 
-## ¿Cuáles son las principales características de pfSense? 
-
-Sus caracteristicas principales son su soporte para VPN, Balanceo de carga y su gestion de DNS y DHCP, tiene  muchas mas caracteristicas pero estas son las mas destacadas para nosotros 
-
-## ¿Cómo se instala y configura pfSense? ¿Qué debemos tener en consideración al instalarlo en un entorno virtual? 
+## Instalación y puntos a tener en cuenta 
 
 Para instalarlo es tan facil como ir a su web https://www.pfsense.org/download/ y desde ahi descargamos con facilidad la ISO
 
 Luego en VirtualBox solo tenemos que crear una nueva maquina con recursos normales considerando que no tiene interfaz grafica 
 seleccionamos FreeBSD como sistema y seguimos la instalacion que es bastante facil y intuitiva.
 ![image](IMAGENES/descarga.png)
-## ¿Consideras pfSense una opción viable para empresas y redes domésticas? 
+
+## Conclusión
 
 Pese a que PfSense es muy útil en nuestro caso a la hora de empresas hay opciones mas profesionales como podria ser Sophos, que es mas pesada pero tambien tiene muchas mas funciones, en el caso de redes domesticas consideramos que se podria usar PfSense sin ningun problema
  
-## ¿Qué es el port forward? Explica cómo lo has configurado. 
+## PortForward
 
 Es un metodo de redireccion de puertos, se usa para que varios dispositivos se puedan interconectar, sobretodo se usa en cosas como camaras de seguridad o para poder conectarnos a servidores de juegos
 
@@ -219,8 +211,6 @@ Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y 
     <summary><h2>DNS/DHCP 😶‍🌫️😶‍🌫️</h2></summary>
     
 # Introducción al servicio (DNS y al DHCP)
-
-## ¿Qué es?
 
   DNS (Domain Name System): Es un servicio que traduce nombres de dominio en direcciones IP. Facilita la navegación en internet y la gestión de redes.
 
@@ -281,6 +271,42 @@ DHCP: Simplifica la administración de redes al asignar IPs automáticamente, ev
 
 - Se usa tanto en hogares como en empresas.
 
+  ##Información oficial
+  
+https://www.truenas.com
+
+## Guía de instalación
+
+## Descarga e instalación:
+Descarga la ISO de TrueNAS SCALE y crea una máquina virtual en VirtualBox con sistema FreeBSD 64-bit usando esa ISO para instalar.
+
+## Configura discos y red:
+Agrega dos discos virtuales pequeños adicionales. Configura un adaptador de red en modo NAT y otro en modo puente para comunicación con internet y tu equipo.
+
+## Instala TrueNAS en la VM:
+Arranca la VM, instala TrueNAS seleccionando el disco de instalación, crea la contraseña root, apaga y retira la ISO para que arranque solo TrueNAS.
+
+## Clona la máquina virtual:
+Haz una copia idéntica para usarla en pruebas de replicación y respaldo entre ambas usando rsync.
+
+## Accede a la interfaz web:
+Desde otro equipo, entra a la IP que muestra TrueNAS e inicia sesión como root.
+
+Crea un pool de almacenamiento con los discos disponibles (RAID 1 o RAID 5).
+
+Crea un usuario para las tareas de respaldo.
+
+Activa y configura servicios SMB, SSH y rsync, creando un módulo con permisos adecuados.
+
+## Tareas automáticas con rsync:
+Crea una tarea rsync para enviar datos a la VM clonada en horarios programados.
+
+## Automatiza con cron y scripts:
+Crea un cronjob que ejecute un script backup.sh que contenga comandos rsync para hacer copias de seguridad de forma automática.
+Resumen final
+Con esto tendrás un sistema de almacenamiento TrueNAS funcionando en dos máquinas virtuales, configurado para hacer copias de seguridad usando rsync, tanto manualmente como programadas automáticamente con cron y scripts personalizados.
+
+
   </details>
 
 <div align="left">
@@ -288,6 +314,7 @@ DHCP: Simplifica la administración de redes al asignar IPs automáticamente, ev
   <details>
     <summary><h2>Página Web 🤡🤡</h2></summary>
 
+# Apache
 
 ## ¿Qué es?
 
@@ -385,7 +412,7 @@ Los recursos a los que hemos recurrido en la creación del proyecto son:
 - DNS Y DHCP de la guia de punkymo de Alina
 - Para Apache hemos usado la una guia de Digital Ocean sobre Apache, PHP y MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu
 - FIREWALL: Para firewall usamos pfsense y nos guiamos por la guia de punkymo
-- Copias de seguridad: Usamos True Nas y nos guiamos con la guia de punkymo nuevamente 
+- Copias de seguridad: Usamos TrueNas y nos guiamos con la guia de punkymo nuevamente 
 
 
    </details>
