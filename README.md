@@ -40,31 +40,29 @@
   <details>
     <summary><h2>SOBRE NUESTRO PROYECTO 🧐🧐</h2></summary>
 
-
-En nuestro proyecto realizamos una página web en la cual nuestros clientes pueden publicar reseñas sobre películas. Para que así personas puedan echar un vistazo a las reseñas de la gente.
+En nuestro proyecto creamos una página web donde los usuarios pueden publicar reseñas sobre películas para que otras personas puedan leerlas y conocer sus opiniones.
 
 <div align="left">
 
 # Idea seleccionada 💡💡
 
-Página web de reseña de películas, con la capacidad de crear listas personalizadas y que cada usuario pueda dar su opinion de las peliculas que pongamos.
+Página web de reseñas de películas, con la capacidad de crear listas personalizadas y en la que cada usuario pueda dar su opinión sobre las películas que publiquemos.
 
 # ¿Hasta donde queremos llegar con el proyecto? 🏁🏁
 
-Nuestra intención es tener una página en la que puedas hacer reseñas rápidas y sencillas, queremos que también puedas hacerte listas con tus contenidos favoritos que tienes pendientes por ver o jugar.
+Nuestra intención es tener una página en la que puedas hacer reseñas rápidas y sencillas. También queremos que puedas crear listas con tus contenidos favoritos que tienes pendientes por ver.
  
 # ¿A quién va dirigido nuestro proyecto? 📫📫
 
-Queremos centrarnos en un publico joven aunque no nos desagrada la idea de que sea para un publico general, nos queremos centrar en que sea agradable para que todos los publicos esten comodos al usar la pagina, queremos algo intuitivo y sencillo
- 
+Queremos centrarnos en un público joven, aunque no nos desagrada la idea de que sea para un público general. Nos enfocamos en que sea agradable para que todos los públicos estén cómodos al usar la página. Queremos que sea algo intuitivo y sencillo. 
 
 # Módulos del ciclo que tengan que ver con el proyecto 📜📜
 
-- Seguridad informática. (Copias de seguridad)
+- Seguridad informática (copias de seguridad).
 
-- Aplicaciones Web. (Php y mysql)
+- Aplicaciones web (PHP y MySQL).
 
-- Sistemas operativos en red y servicios en red. (máquinas virtuales del proyecto)
+- Sistemas operativos en red y servicios en red (máquinas virtuales del proyecto).
 
 
 # Materiales necesarios ⛏️⛏️
@@ -75,14 +73,16 @@ Queremos centrarnos en un publico joven aunque no nos desagrada la idea de que s
 
  # Especificar objetivos y las funcionalidades. 
 
-Nuestra meta es crear una web donde se puedan hacer reseñas de peliculas, también querémos que los usuarios puedan hacer listas de las películas, para llenar un orden u organización
+Nuestra meta es crear una web donde se puedan hacer reseñas de películas. También queremos que los usuarios puedan crear listas de películas para organizar y ordenar mejor sus contenidos.
  
 
 # Especificar listado de tareas.
 
--Crear los servidores y configurarlos para que den los servicios que necesitamos
--Crear paginas web con frontend y backend
--Base de datos para que funcionen los registros
+- Crear los servidores y configurarlos para que ofrezcan los servicios que necesitamos.
+
+- Crear páginas web con frontend y backend.
+
+- Configurar la base de datos para que funcionen los registros.
 
  
 
@@ -96,9 +96,9 @@ Nuestra meta es crear una web donde se puedan hacer reseñas de peliculas, tambi
 
  # Diagrama de la red.
 
-Este es el diagrama de la red, donde podemos apreciar el esquema de como irá estructurada nuestra red y las direcciones IP que utilizaremos para esta. 
+Este es el diagrama de la red, donde podemos apreciar el esquema de cómo estará estructurada nuestra red y las direcciones IP que utilizaremos.
 
-En el diagrama de la red podemos ver como se estructura nuestra red, también apreciamos las direcciones IP que usaremos.
+En el diagrama de la red podemos ver cómo se estructura nuestra red y también las direcciones IP que usaremos.
 
  <br />
 <div align="center">
@@ -122,7 +122,7 @@ Bind9 (DNS)
 
 # El hardware que se va a utilizar. 
 
-Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero de momento podemos decir que será 
+Aún no sabemos con seguridad todo el hardware que usaremos al final del proyecto, pero por el momento podemos decir que será...
 
 | COMPONENTE        | SO                  | ALMACENAMIENTO | CPU          | RAM  | IP                | GATEWAY      |
 |-------------------|---------------------|----------------|---------------|------|-------------------|--------------|
@@ -130,11 +130,18 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 | 💻 CLIENTE       | Ubuntu 22.04.02     | 50 GB          | 4             | 4 GB | 000.000.0.00/00   | 000.000.0.0  |
 | 🌐 DNS / DHCP    | Ubuntu 22.04.02     | 50 GB          | 2             | 4 GB | 000.000.0.0/00    | 000.000.0.0  |
 
+# DNS/DHCP
+
+- DNS: convierte los nombres de páginas web en direcciones que los PC entienden para conectarse.
+
+- DHCP: asigna automáticamente las direcciones IP a los dispositivos cuando se conectan, sin configurarlos manualmente.
+  
+
 # Los servicios a implementar. 
 
-- DNS: Para que nuestro servidor sea capaz de resolver direcciónes web 
+- DNS: Para que nuestro servidor sea capaz de resolver direcciones web.
 
-- DHCP: Para asignar las ip automáticamente a el resto de las máquinas virtuales 
+- DHCP: Para asignar las IP automáticamente al resto de las máquinas virtuales.
 
 
 # Los sistemas operativos a utilizar. 
@@ -157,11 +164,13 @@ Aún no sabemos seguro todo el hardware que usaremos al final del proyecto, pero
 
  # Incidencias 🚧🚧
  
-A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos estos a lo largo del proyecto:
+A lo largo del trabajo han surgido varios problemas; aquí describiremos todos ellos durante el proyecto:
 
-- Configurando el DNS y el DHCP cometimos varios errores a la hora de la escritura de códigos y de comandos.
-- Al final hemos cambiado la manera de hacerlo, usando el pi-hole con una interfaz gráfica en nuestro servidor.
-- Hemos descargado el navegador y tenemos que descargar un navedador en el servidor.
+- Al configurar el DNS y el DHCP cometimos varios errores al escribir códigos y comandos.
+
+- Finalmente, cambiamos la forma de hacerlo, usando Pi-hole con una interfaz gráfica en nuestro servidor.
+
+- Hemos descargado el navegador, pero también necesitamos instalar uno en el servidor.
 
 </details>
 
@@ -174,34 +183,39 @@ A lo largo del trabajo han surgido varios problemas, aquí redactaremos todos es
 
 ## Concepto 
 
--PfSense es un firewall de codigo abierto, se utiliza como firewall y enrutador, se usa por su interfaz sencilla y simple basado en FreeBSD, es un sistema operativo multiusuario capaz de tener multitarea
+-pfSense es un sistema operativo de código abierto basado en FreeBSD, diseñado para funcionar como firewall y router. Es muy utilizado en redes pequeñas y grandes debido a su potencia, flexibilidad y facilidad de uso mediante su interfaz web.
 
 ## Características
 
-Sus características principales son su soporte para VPN, Balanceo de carga y su gestion de DNS y DHCP, tiene  muchas mas caracteristicas pero estas son las mas destacadas para nosotros 
+Sus características principales son el soporte para VPN, balanceo de carga y la gestión de DNS y DHCP. Tiene muchas más características, pero estas son las más destacadas para nosotros.
+
 
 ## Instalación y puntos a tener en cuenta 
 
-Para instalarlo es tan facil como ir a su web https://www.pfsense.org/download/ y desde ahi descargamos con facilidad la ISO
+Para instalarlo, es tan fácil como ir a su web https://www.pfsense.org/download/ y desde ahí descargar la ISO fácilmente.
 
-Luego en VirtualBox solo tenemos que crear una nueva maquina con recursos normales considerando que no tiene interfaz grafica 
-seleccionamos FreeBSD como sistema y seguimos la instalacion que es bastante facil y intuitiva.
+Luego, en VirtualBox solo tenemos que crear una nueva máquina con recursos normales, teniendo en cuenta que no tiene interfaz gráfica. Seleccionamos FreeBSD como sistema operativo y seguimos la instalación, que es bastante fácil e intuitiva.
+
+
 ![image](IMAGENES/descarga.png)
 
 ## Conclusión
 
-Pese a que PfSense es muy útil en nuestro caso a la hora de empresas hay opciones mas profesionales como podria ser Sophos, que es mas pesada pero tambien tiene muchas mas funciones, en el caso de redes domesticas consideramos que se podria usar PfSense sin ningun problema
- 
-## PortForward
+pfSense permite publicar una página web de forma segura desde una red local, controlando el tráfico con reglas de firewall y NAT. Es fácil de usar y muy útil para proteger y gestionar redes, lo cual se adapta bien a lo que estamos buscando.
 
-Es un metodo de redireccion de puertos, se usa para que varios dispositivos se puedan interconectar, sobretodo se usa en cosas como camaras de seguridad o para poder conectarnos a servidores de juegos
+## Port Forward
 
-Lo configuramos creando una nueva regla en la seccion NAT, configuramos la interfaz en WAN par trafico externo, protocolos usamos TCP/UDP, ponemos puerto de HTTP a HTTP, redirigimops a la ip que usamos en nuestro caso 10.28.38.100 y ya estaria 
+El Port Forward permite que un servicio, que en nuestro caso será una página web, sea visible desde fuera de la red donde está configurada.
 
-# PRACTICA
-Hemos configurado el PFSense y un cliente, el cual hemos conectado al PFSense y nos ha brindado una dirección IP dentro del dominio.
+Es un método de redirección de puertos que se usa para que varios dispositivos puedan comunicarse; sobre todo se utiliza en dispositivos como cámaras de seguridad o para conectarnos a servidores de películas.
+
+Lo configuramos creando una nueva regla en la sección NAT, configurando la interfaz en WAN para tráfico externo, usando los protocolos TCP/UDP, asignando el puerto HTTP a HTTP, redirigiendo a la IP que usamos, en nuestro caso 192.168.56.111, y listo.
+
+Hemos configurado pfSense y un cliente, el cual conectamos a pfSense y nos brindó una dirección IP dentro del dominio.
 
 ![image](https://github.com/user-attachments/assets/5042db07-4b3f-4987-8f96-f4daa7d055d0)
+
+Hemos usado el Port forward ya que permite acceder a servicios internos desde fuera de la red, asi todos nuestros clientes podran acceder a nuestra página web sin problema.
 
 </details>
 
@@ -368,8 +382,7 @@ sudo ufw enable
  
 # INCIDENCIAS (APACHE)⚠️⚠️
 
-Durante la realizacion de el apartado de apache tubimos multiples problemas, todos devido a que nos quisimos adelantar y intentamos instalar PHP y MySQL antes de que lo explicaran en clase, esto nos hizo confundirnos a la hora de la instalacion y acabar complicandola demasiado hasta que salieron muchos errores con los archivos, lo que decidimos hacer al final es pasar todo de un debian a un ubuntu server, al hacer esto la instalacion fue mucho mas facil para nosotros y pudimos completarla sin mayor dificultad
-
+Durante la realización del apartado de Apache tuvimos múltiples problemas, todos debidos a que intentamos adelantarnos e instalar PHP y MySQL antes de que lo explicaran en clase. Esto nos causó confusión durante la instalación y la complicó demasiado, hasta que aparecieron muchos errores con los archivos. Al final, decidimos pasar todo de Debian a Ubuntu Server. Al hacer esto, la instalación fue mucho más fácil para nosotros y pudimos completarla sin mayor dificultad.
 
 ## Nuestro mapa de la web:
 
@@ -409,10 +422,22 @@ Durante la realizacion de el apartado de apache tubimos multiples problemas, tod
 
 Los recursos a los que hemos recurrido en la creación del proyecto son:
 
-- DNS Y DHCP de la guia de punkymo de Alina
-- Para Apache hemos usado la una guia de Digital Ocean sobre Apache, PHP y MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu
-- FIREWALL: Para firewall usamos pfsense y nos guiamos por la guia de punkymo
-- Copias de seguridad: Usamos TrueNas y nos guiamos con la guia de punkymo nuevamente 
+- DNS y DHCP: seguimos la guía de Punkymo de Alina.
+
+- Apache: utilizamos una guía de DigitalOcean sobre Apache, PHP y MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu
+
+- Firewall: para el firewall usamos pfSense y nos guiamos por la guía de Punkymo.
+
+- Copias de seguridad: usamos TrueNAS y nuevamente seguimos la guía de Punkymo.
 
 
    </details>
+
+   <div align="left">
+
+  <details>
+    <summary><h2>Conclusiones👿👿</h2></summary>
+
+Con este proyecto hemos aplicado lo aprendido sobre redes y servicios, creando una página web para compartir opiniones de películas. Hemos aprendido a preparar el servidor, gestionar la red y permitir el acceso desde fuera. Esto nos ha ayudado a entender mejor cómo funciona y se mantiene una página web real.
+
+  </details>
